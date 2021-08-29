@@ -1,0 +1,4 @@
+FROM postgres:10-alpine
+ENV POSTGRES_USER=elib_user
+ENV POSTGRES_PASSWORD=elib123
+ENV POSTGRES_DB=elib_test

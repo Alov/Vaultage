@@ -1,0 +1,2 @@
+docker build . -t elib_db
+docker run -p 5432:5432 --name elib_db elib_db
